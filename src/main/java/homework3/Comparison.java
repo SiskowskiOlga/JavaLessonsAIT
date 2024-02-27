@@ -70,6 +70,22 @@ public class Comparison {
             System.out.println("false");
         }
         */
+/* varian 2
+int x=23, y=33; z=55; //обозн. переменные и дали значения
+if(y>=&&y<z)
+Sysytem.out.println(true);
+else
+System.out.println(false);
+
+variant 3
+if(x-y < 0 && y-z < 0){
+System.out.println(true);
+}else
+System.out.println(false);
+boolean isBetweenResult = (x>y)&&(y<z);
+System.out.println(isBetweenResult);
+
+ */
 
 
 

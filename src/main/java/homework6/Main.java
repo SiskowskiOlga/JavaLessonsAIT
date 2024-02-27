@@ -2,28 +2,33 @@ package homework6;
 // напечатать в консоле парные числа четные от 1 до 20
 public class Main {
     public  static void main(String[]args){
-        int odd = 2;
-        while (odd<20){
-            if (odd % 2 == 0){
-                System.out.println(odd);
+
+        // mit While
+        int i = 2;
+        while (i<=20){
+            if (i % 2 == 0){
+                System.out.println(i+" ");
             }
-            odd = odd+2;
+            i++;
         }
 
-        System.out.println("---2-----");
+        System.out.println(" ");
 
-        odd = 2;
-        while (odd<=20){
-            System.out.println(odd);
-        odd = odd+2;
-    }
+        // mit for
+        for (i =1; i <=20; i++){
+            if (i % 2 == 0) {
+                System.out.println(i + " ");
+            }
+            }
+        // mit do while
+        i = 1;
+        do {
+            if (i % 2 == 0){
+                System.out.println(i +" ");
+            }
+            i++;
 
-        System.out.println("---3----");
-
-        for (int i = 2; i<=20; i = i+2){
-            System.out.println(i);
-
-        }
+        }while (i <= 20);
 
 }
 

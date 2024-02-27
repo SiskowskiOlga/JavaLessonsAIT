@@ -1,0 +1,9 @@
+
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 61 to the 15 allowed.(Çµí‘8©ÃÙ‡Ý1
+F
+java:S21400")Use "java.util.Random.nextInt()" instead.(öÃ³í8ºÃÙ‡Ý1
+>
+java:S11100"!Remove these useless parentheses.(öÃ³í8»ÃÙ‡Ý1
+ä
+java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 113 to 64, Complexity from 24 to 14, Nesting Level from 6 to 2, Number of Variables from 16 to 6.(Çµí‘8ÑÃÙ‡Ý1

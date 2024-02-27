@@ -3,7 +3,6 @@ v
 java:S1192	"ZDefine a constant instead of duplicating this literal "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾" 3 times.(Ù—ı(8¨İ¯ Ú1
 y	java:S127$"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ÿ±¨ûÿÿÿÿ8¨İ¯ Ú1
 y	java:S127$"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ÿ±¨ûÿÿÿÿ8¨İ¯ Ú1
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‰áÃŸúÿÿÿÿ8©İ¯ Ú1
 [
 java:S1854"9Remove this useless assignment to local variable "digit".(µşúûÿÿÿÿ8Õİ¯ Ú1
 L

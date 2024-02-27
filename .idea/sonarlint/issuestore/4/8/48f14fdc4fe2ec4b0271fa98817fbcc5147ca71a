@@ -1,0 +1,8 @@
+
+N
+java:S1481"1Remove this unused "checkStudent" local variable.(ëµÈª8¨ï¶ÕÞ1
+X	java:S125"<This block of commented-out lines of code should be removed.(ä¿úÞ8ªï¶ÕÞ1
+c
+java:S1126%"AReplace this if-then-else statement by a single return statement.(ÿØÙùúÿÿÿÿ8¬ï¶ÕÞ1
+^
+java:S11262"AReplace this if-then-else statement by a single return statement.(ÆÅœª8®ï¶ÕÞ1

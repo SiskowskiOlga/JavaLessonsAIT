@@ -15,7 +15,7 @@ public class HiLo {
                  программа спрашивает хочет еще раз поиграть или нет.
                  */
 
-            int theNumber = (int) (Math.random() * 100 + 1); //генерация случайных чисел, угадывает пользователь.
+            int randomNumber = (int) (Math.random() * 100 + 1); //генерация случайных чисел, угадывает пользователь.
         /*
          созд. переменную = Math.random => присвоили значение для генерации случ. номера.
          переменная  int=> нам нужно целое число, без дроби.
@@ -25,9 +25,10 @@ public class HiLo {
 
             //System.out.println(theNumber); // выводит сгенирированное загаданное (theNumber)число на консоле
 
-            int guess = 0; // переменная хранит ответы пользователя
+            int attempts = 0;
+            int maaxAttempts = 10; // переменная хранит ответы пользователя
 
-            while (guess != theNumber) {
+            while (attempts != maaxAttempts) {
                 // пока значение переменной guess не равно != значению переменной theNumber:
                 // цикл повторяет команды написанные сразу же после этой строки кода
 
@@ -40,25 +41,25 @@ public class HiLo {
          */
 
 
-                System.out.println("Угодайте число от 1 до 100: ");
+                System.out.println("Угодайте число от 1 до 100. У вас "+ maaxAttempts+" попыток");
 
-                guess = scan.nextInt(); // примет переменную и сохранит значение
+                attempts = scan.nextInt(); // примет переменную и сохранит значение
                 //System.out.println(" Вы ввели число: "+ guess+".");
 
         /*
         создаем инструкцию =>if проверки чисел: больше, меньше и результат поверки выводим на консоль
         Инструкция if=> проверяет и решает сколько раз запускать блок команд на основе условия.
          */
-                if (guess < theNumber)
-                    System.out.println(guess + " это число меньше угадываемого числа. Попробуйте еще раз.");
+                if (attempts < maaxAttempts)
+                    System.out.println(attempts + " это число меньше угадываемого числа. Попробуйте еще раз.");
 
             /*
             инструкция else-if=> даёт возможность выбора в противном случае.
              */
-                else if (guess > theNumber)
-                    System.out.println(guess + " это число больше угадываемого числа. Попробуйте еще раз.");
+                else if (attempts > maaxAttempts)
+                    System.out.println(attempts + " это число больше угадываемого числа. Попробуйте еще раз.");
                  else
-                    System.out.println(guess + '!' + " Поздравляю! Вы угодали число!");
+                    System.out.println(attempts + '!' + " Поздравляю! Вы угодали число!");
                 }
                 System.out.println("Хотите еще раз поиграть в игру? (да /нет)");
                 playAgain = scan.next();

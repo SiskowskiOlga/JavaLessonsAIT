@@ -1,9 +1,0 @@
-
-`
-java:S1854.">Remove this useless assignment to local variable "playAgain1".(•ÒÈÛşÿÿÿÿ8•’ìäÛ1
-X	java:S125&"<This block of commented-out lines of code should be removed.(ñ¹¿Û8¦’ìäÛ1
-Q
-java:S1481."/Remove this unused "playAgain1" local variable.(•ÒÈÛşÿÿÿÿ8§’ìäÛ1
-F
-java:S21406")Use "java.util.Random.nextInt()" instead.(¹˜Š¿8¨’ìäÛ1
-W	java:S125;"<This block of commented-out lines of code should be removed.(©Õ¯8ª’ìäÛ1

@@ -1,0 +1,8 @@
+
+b
+java:S1854"@Remove this useless assignment to local variable "randomNumber".(°¢ĞŒùÿÿÿÿ8ª’½Ü1
+K
+java:S2140")Use "java.util.Random.nextInt()" instead.(°¢ĞŒùÿÿÿÿ8¢ª’½Ü1
+S
+java:S1481"1Remove this unused "randomNumber" local variable.(°¢ĞŒùÿÿÿÿ8£ª’½Ü1
+]	java:S125/"<This block of commented-out lines of code should be removed.(‘–­åøÿÿÿÿ8¥ª’½Ü1
