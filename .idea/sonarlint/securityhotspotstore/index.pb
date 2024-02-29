@@ -1,7 +1,5 @@
 
 X
-(src/main/java/konsultation03/Task02.java,a\1\a1fccfc2dc9607dace03aceb6c3ccd10b4096848
-X
 (src/main/java/konsultation03/Task01.java,0\d\0dd6754b5abba0a90f3d559f36b8fe35083dc5a0
 R
 "src/main/java/lesson06/Task01.java,6\4\645be9ad3ce26b20b86d0c8d18ea3b8f8b5c67c0
@@ -88,13 +86,21 @@ T
 $src/main/java/homework8/LoopFor.java,a\4\a405df15d3cf927dcd94efcad5687dc2bfe9c25c
 U
 %src/main/java/lesson10/Factorial.java,9\0\903bb62beedc91ce8c8145f1740a1670ac018c11
-_
-/src/main/java/homework9/RectngleParameters.java,8\d\8d1efc6e21f211a32075a179482390a43822fadb
 \
 ,src/main/java/homework9/StringProcessor.java,b\e\bea764032c8ce62c53b379c7787b4fbd29c06102
-g
-7src/main/java/homework9/RectangleParametersAndArea.java,2\b\2bf5e03477d17b7bc7b56d8bdeb734d64308ea78
 g
 7src/main/java/homework9/RectanglePerimetersAndArea.java,5\8\58692885086e7a764403ebca9c94ed29063069d3
 ^
 .src/main/java/homework9/PalindromeExample.java,6\c\6c619c829ef5917d41e4fbfe82b015964afe7590
+V
+&src/main/java/lesson13/JavaArrays.java,7\0\7016b584696cf92a92f9ce28fd540b3e2d8e9d89
+U
+%src/main/java/lesson13/TaskArray.java,5\c\5cefbeaf10a28c22945a624fce2062898dd8a98e
+Y
+)src/main/java/konsultation03/JavaFor.java,3\3\339bb0526570c1fe1a6d7237eb7748631e6ff8d1
+j
+:src/main/java/homework9/CalculationRactangleDiamParam.java,6\d\6d9e6bbcbfe228432b525220502c847abae7d82d
+j
+:src/main/java/homework9/CalculationRectangleDiamParam.java,b\9\b9d4405635b36dc7ace0fe50fc92f7a2cdd2b38b
+_
+/src/main/java/homework9/PalindromeVariante.java,5\1\51cac63a394b4f3556476826a05ed6c3d4843d5b
