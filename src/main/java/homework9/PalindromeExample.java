@@ -18,7 +18,7 @@ public class PalindromeExample {
             }
         }
     if(isPalindrome){
-        System.out.println("строка \""+ input + "\" является палиндромом.");
+        System.out.println("строка \"" + input + "\" является палиндромом.");
 
     }else {
         System.out.println("Строка \"" + input + "\" не является палиндромом");
