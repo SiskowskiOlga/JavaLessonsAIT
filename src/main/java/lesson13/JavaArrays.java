@@ -22,9 +22,9 @@ public class JavaArrays {
         //выводим определенное значение из хранилища указывая номер индекса
 
         int salaryMaxFirstMonth = salaryMax[0]; //или делаем переменной и выводим
-        int sizeSalarymax = salaryMax.length;
-        //System.out.println("salaryMaxFirstMonth" + salaraMaxFirstMonth);
-        //System.out.println("sizeSalarymax" + sizeSalarymax);
+        int sizeSalaryMax = salaryMax.length;
+        //System.out.println("salaryMaxFirstMonth" + salaryMaxFirstMonth);
+        //System.out.println("sizeSalaryMax" + sizeSalaryMax);
 
         for (int i = 0; i < salaryMaria.length; i++) {
             System.out.println(salaryMaria[i]);

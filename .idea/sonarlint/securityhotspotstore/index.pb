@@ -88,8 +88,6 @@ U
 %src/main/java/lesson10/Factorial.java,9\0\903bb62beedc91ce8c8145f1740a1670ac018c11
 \
 ,src/main/java/homework9/StringProcessor.java,b\e\bea764032c8ce62c53b379c7787b4fbd29c06102
-g
-7src/main/java/homework9/RectanglePerimetersAndArea.java,5\8\58692885086e7a764403ebca9c94ed29063069d3
 ^
 .src/main/java/homework9/PalindromeExample.java,6\c\6c619c829ef5917d41e4fbfe82b015964afe7590
 V
@@ -99,8 +97,8 @@ U
 Y
 )src/main/java/konsultation03/JavaFor.java,3\3\339bb0526570c1fe1a6d7237eb7748631e6ff8d1
 j
-:src/main/java/homework9/CalculationRactangleDiamParam.java,6\d\6d9e6bbcbfe228432b525220502c847abae7d82d
-j
 :src/main/java/homework9/CalculationRectangleDiamParam.java,b\9\b9d4405635b36dc7ace0fe50fc92f7a2cdd2b38b
 _
 /src/main/java/homework9/PalindromeVariante.java,5\1\51cac63a394b4f3556476826a05ed6c3d4843d5b
+R
+"src/main/java/lesson14/Task01.java,6\c\6cbb9c115a3fbc73f1260113016073c29411c5e5

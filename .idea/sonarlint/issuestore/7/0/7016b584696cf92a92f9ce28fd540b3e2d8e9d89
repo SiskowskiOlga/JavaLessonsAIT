@@ -1,11 +1,11 @@
 
 c
-java:S1854"ARemove this useless assignment to local variable "sizeSalarymax".(ΖΙϊÿÿÿÿ8¤΄“ί1
+java:S1854"ARemove this useless assignment to local variable "sizeSalaryMax".(Υίωύψÿÿÿÿ8¤΄“ί1
 i
 java:S1854"GRemove this useless assignment to local variable "salaryMaxFirstMonth".(μίωÿÿÿÿ8κω„ί1
 ]	java:S125"<This block of commented-out lines of code should be removed.(Ή΅ϊίώÿÿÿÿ8μω„ί1
 Z
 java:S1481"8Remove this unused "salaryMaxFirstMonth" local variable.(μίωÿÿÿÿ8μω„ί1
 T
-java:S1481"2Remove this unused "sizeSalarymax" local variable.(ΖΙϊÿÿÿÿ8©΄“ί1
-]	java:S125"<This block of commented-out lines of code should be removed.(—ί³ωÿÿÿÿ8Υ“ί1
+java:S1481"2Remove this unused "sizeSalaryMax" local variable.(Υίωύψÿÿÿÿ8Συψ³ί1
+X	java:S125"<This block of commented-out lines of code should be removed.(ΛΑ·¬8Υ“ί1
