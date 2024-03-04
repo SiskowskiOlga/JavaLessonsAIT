@@ -102,3 +102,11 @@ _
 /src/main/java/homework9/PalindromeVariante.java,5\1\51cac63a394b4f3556476826a05ed6c3d4843d5b
 R
 "src/main/java/lesson14/Task01.java,6\c\6cbb9c115a3fbc73f1260113016073c29411c5e5
+O
+src/main/java/mytest/Metod.java,1\a\1ac527b8813e1f72b111ed2b717a41d2419eb47b
+U
+%src/main/java/homework14/MyHobby.java,4\3\439cb5a6d982eb301f0e8736e6271a95e11d5cdc
+V
+&src/main/java/homework14/MyHobbys.java,4\4\44749fb4f795375c1651f2f458384197bb022915
+T
+$src/main/java/homework14/Hobbys.java,e\5\e510ae1d588f6aa09ff9c990fd1c8e73487d970c

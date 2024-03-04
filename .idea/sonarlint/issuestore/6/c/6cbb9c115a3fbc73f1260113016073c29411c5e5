@@ -1,9 +1,6 @@
 
-y	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(¬÷óˆøÿÿÿÿ8¢”…µß1
-y	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(¬÷óˆøÿÿÿÿ8£”…µß1
-y	java:S127+"XRefactor the code in order to not assign to this loop counter from within the loop body.(¬÷óˆøÿÿÿÿ8£”…µß1
-y	java:S127+"XRefactor the code in order to not assign to this loop counter from within the loop body.(¬÷óˆøÿÿÿÿ8¤”…µß1
-[
-java:S1854.">Remove this useless assignment to local variable "sumNegativ".(ëş–ö8Š–…µß1
-Q
-java:S1481)"/Remove this unused "sumNegativ" local variable.(à©¿‰ùÿÿÿÿ8–…µß1
+y	java:S127#"XRefactor the code in order to not assign to this loop counter from within the loop body.(¬÷óˆøÿÿÿÿ8øÅá„à1
+y	java:S127#"XRefactor the code in order to not assign to this loop counter from within the loop body.(¬÷óˆøÿÿÿÿ8ï¹…à1
+y	java:S1275"XRefactor the code in order to not assign to this loop counter from within the loop body.(¬÷óˆøÿÿÿÿ8ï¹…à1
+y	java:S1275"XRefactor the code in order to not assign to this loop counter from within the loop body.(¬÷óˆøÿÿÿÿ8ï¹…à1
+]	java:S1256"<This block of commented-out lines of code should be removed.(£ßÓ•ÿÿÿÿÿ8Èá„à1
