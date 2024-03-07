@@ -106,7 +106,15 @@ O
 src/main/java/mytest/Metod.java,1\a\1ac527b8813e1f72b111ed2b717a41d2419eb47b
 U
 %src/main/java/homework14/MyHobby.java,4\3\439cb5a6d982eb301f0e8736e6271a95e11d5cdc
-V
-&src/main/java/homework14/MyHobbys.java,4\4\44749fb4f795375c1651f2f458384197bb022915
-T
-$src/main/java/homework14/Hobbys.java,e\5\e510ae1d588f6aa09ff9c990fd1c8e73487d970c
+[
++src/main/java/lesson15/DogRegistration.java,1\1\11f4f98e4edc5e7e5098d097d56486019d2147a6
+O
+src/main/java/lesson15/Dog.java,0\a\0a2d5d2ff223936b5d2edaa5ccc80a6584f26e9c
+W
+'src/main/java/homework14/HobbyUtil.java,0\0\00b1bcbd5f60f8e39c69c3b9c9334c1db6c1e63d
+Z
+*src/main/java/homework15/AnimalsOfZoo.java,4\7\47063f0a1030a900aead59d6cb158eb5a3ee7d84
+U
+%src/main/java/homework15/ZooUtil.java,1\f\1fe81bbd83600ef27754ae1c4b372a23973d4ea8
+W
+'src/main/java/lesson16/JavaMethods.java,a\b\ab713c3de5119647cc4390330a0883aac92c8c2a

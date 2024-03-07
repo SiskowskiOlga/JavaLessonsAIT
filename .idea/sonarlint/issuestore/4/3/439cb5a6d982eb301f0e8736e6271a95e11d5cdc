@@ -1,3 +1,9 @@
 
+V
+java:S1854"9Remove this useless assignment to local variable "hobby".(‡Ù™e8œ·¦ÿà1
+]	java:S125"<This block of commented-out lines of code should be removed.(§™¶íûÿÿÿÿ8£·¦ÿà1
 u
-java:S3012^"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(ˆ¿ñe8œ•ÃÖà1
+java:S3012c"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(ˆ¿ñe8®·¦ÿà1
+X	java:S125_"<This block of commented-out lines of code should be removed.(€†£Ö8¯·¦ÿà1
+G
+java:S1481"*Remove this unused "hobby" local variable.(‡Ù™e8··¦ÿà1

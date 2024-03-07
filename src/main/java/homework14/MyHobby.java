@@ -1,5 +1,7 @@
 package homework14;
+
 import java.util.Scanner;
+
 public class MyHobby {
     public static void main(String[] args) {
         /* 1- Задача
@@ -9,7 +11,10 @@ public class MyHobby {
 
         // создаем массив со списком моих хобби
         String[] hobbys = {"медитация ", "рисование ", "дайвинг ", "программирование ", "путешествие"};
-        for (String hobby : hobbys) { //вывод из массива хобби на экран
+        for (String hobby : hobbys) {
+            // : Здесь String hobbys - это переменная,
+            // которая принимает каждое значение из массива numbers в каждой итерации цикла.
+            // вывод из массива хобби на экран
             System.out.print(hobby);
             System.out.println();
         }
@@ -23,13 +28,13 @@ public class MyHobby {
         выводит на экран сообщение о том, что оно есть в списке.
          */
 
-        //объявляем поиск конкретного наименования хобби
-        String findHobby = "еда";
+        //объявляем поиск конкретного наименования хоббy findHobby = "еда";
         //задаем переменную для поиска хобби
+        String findHobby = "Essen";
         boolean find = false;
         // ищем хобби в нашем массиве
-        for (String hobby : hobbys){
-            if (hobby.equals(findHobby)){
+        for (String hobby : hobbys) {
+            if (hobby.equals(findHobby)) {
                 find = true;
                 break;
             }
@@ -38,7 +43,7 @@ public class MyHobby {
         if (find) {
             System.out.println("Хобби \"" + findHobby + "\" найдено в списке.");
 
-        }else   {
+        } else {
             System.out.println("хобби \"" + findHobby + "\" не найдено в списке.");
         }
 
@@ -54,20 +59,19 @@ public class MyHobby {
         Scanner scanner = new Scanner(System.in);
         //выводим список хобби с их номером последовательностью
         System.out.println("Пожалуйста, выберите ваше любимое хобби из ниже указанного списка:");
-         for (int i = 0; i< hobbys.length; i++){
-             System.out.println((i+1)+"."+hobbys[i]);
-         }
-         //просим пользователя указать номер любимого хобби
-         System.out.println("Укажите номер вашего любимого хобби: ");
-         int choice = Integer.parseInt(scanner.nextLine());
+        for (int i = 0; i < hobbys.length; i++) {
+            System.out.println((i + 1) + "." + hobbys[i]);
+        }
+        //просим пользователя указать номер любимого хобби
+        System.out.println("Укажите номер вашего любимого хобби: ");
+        int choice = Integer.parseInt(scanner.nextLine());
 
-         //проверка указания правильного нумерования при выборе
-        if (choice>=1 && choice <= hobbys.length){
+        //проверка указания правильного нумерования при выборе
+        if (choice >= 1 && choice <= hobbys.length) {
 
             //выводим выбранное хобби на экпан
-            System.out.println("Ваше любимое хобби: "+hobbys[choice-1]);
-        }
-        else {
+            System.out.println("Ваше любимое хобби: " + hobbys[choice - 1]);
+        } else {
             System.out.println("Номер указан не верно");
         }
 
@@ -75,7 +79,7 @@ public class MyHobby {
 
 
 
-        /*
+        /* 4 Задача
          Напишите программу, которая позволяет добавлять новые хобби в существующий массив хобби.
          Поскольку размер массива в Java фиксирован,
          вам нужно будет создать новый массив большего размера и скопировать в него элементы из старого массива,
@@ -87,20 +91,21 @@ public class MyHobby {
         String newHobby = scanner.nextLine();
 
         //создали новый массив с большим размером памяти
-        String[]newHobbys = new String[hobbys.length +1];
+        String[] newHobbys = new String[hobbys.length + 1];
+        //System.arraycopy(hobbys,0,newHobbys,0,hobbys.length);
 
         //переносим из имеющего массива элементы в новый массив
-        for (int i = 0; i < hobbys.length; i++){
+        for (int i = 0; i < hobbys.length; i++) {
             newHobbys[i] = hobbys[i];
         }
         //добавляем новое хобби в новый массив
-        newHobbys[newHobbys.length-1]= newHobby;
+        newHobbys[newHobbys.length - 1] = newHobby;
 
         //выводим новый список хобби на экран
-         System.out.println("Объявленный список хобби");
-         for (String hobby : newHobbys){
-             System.out.println(hobby);
-         }
+        System.out.println("Объявленный список хобби");
+        for (String hobby : newHobbys) {
+            System.out.println(hobby);
+        }
 
 
 
@@ -114,18 +119,24 @@ public class MyHobby {
           */
 
         //создаем второй массив для рейтинга хобби
-        int[]rating = {9,7,3,6,5,8,10};
+        int[] rating = {9, 7, 3, 6, 5, 8, 10};
 
         //выводим список хобби с их рейтингом
         System.out.println("Список хобби и их рейтин:");
-        for (int i = 0; i<hobbys.length; i++){
-            System.out.println(hobbys[i]+ ":" + rating[i]);
-        }
 
+
+        for (int i = 0; i < hobbys.length; i++) {
+            String hobby = hobbys[i];
+            System.out.println(hobbys[i] + ":" + rating[i]);
+
+        }
 
     }
 
+
 }
+
+
 
 
 
