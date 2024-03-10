@@ -31,7 +31,7 @@ public class JavaMethods {
         return yearSalary = yearSalary + monthSalary + smallSalary;
     }
 
-    // ... --->не знаем точно сколько хотим передать параметров с ... передаём любое количество переменных
+    // ... varargs --->не знаем точно сколько хотим передать параметров с ... передаём любое количество переменных
     static void printNames(String... names) {
         for (String name : names) {
             System.out.println(name);
