@@ -5,14 +5,16 @@ import com.github.javafaker.Faker;
 import java.util.Locale;
 
 public class FakerUtil {
+    // составляем фыйковый список, например информацию про людей
+
     public static void main(String[] args) {
-        for (int i = 0; i < 400; i++) {
+        for (int i = 0; i < 4; i++) { //4 это сколько фейковых списков сделать
             createFakeStudent();
         }
 
     }
 
-    public static konsultation.FakerUtil.Student createFakeStudent() {
+    public static Student createFakeStudent() {
         Faker faker = new Faker(new Locale("de-De"));
         String firstname = faker.name().firstName();
         String secondname = faker.name().lastName();
@@ -26,43 +28,8 @@ public class FakerUtil {
         return studentOne;
 
     }
-
-    public static class Student {
-        private String firstname;
-        private String secondname;
-        private String address;
-        private String phonenumber;
-
-        //мышью правой кнопкой кликаем, выбераем Generate, Сonstructer
-
-
-        public Student(String firstname, String secondname, String address, String phonenumber) {
-            this.firstname = firstname;
-            this.secondname = secondname;
-            this.address = address;
-            this.phonenumber = phonenumber;
-        }
-
-        //затем так же Getter
-        public String getFirstname() {
-            return firstname;
-        }
-
-        public String getSecondname() {
-            return secondname;
-        }
-
-        public String getAddress() {
-            return address;
-        }
-
-        public String getPhonenumber() {
-            return phonenumber;
-        }
-
-        public String toString() {
-            return "Student{" + "firstname='" + firstname + '\'' + ", secondname='" + secondname + '\'' + ", address='" + address + '\'' + ", phonenumber='" + phonenumber + '\'' + '}';
-        }
-    }
 }
+
+
+
 
