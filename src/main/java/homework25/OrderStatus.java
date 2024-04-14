@@ -16,7 +16,7 @@ public enum OrderStatus {
             case DELIVERED:
                 return "Заказ доставлен, благодарим что выбрали нас.";
             case CANCELLED:
-                return "Заказ отменен, очень жаль.";
+                return "Заказ отменен, очень жаль:(";
             default:
                 return "Неизвестный статус заказа";
         }

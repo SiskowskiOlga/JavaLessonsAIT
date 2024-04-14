@@ -5,7 +5,7 @@ public class OnlineShop {
         OrderStatus status = OrderStatus.SHIPPED;
         System.out.println("Описание текущего состояния заказа: " + status.getDescription());
 
-        System.out.println("Можно ли отменить заказ? "+ status.canCancel());
+        System.out.println("Можно ли отменить заказ? " + status.canCancel());
 
 
     }

@@ -1,6 +1,6 @@
 package homework25;
 
 public enum MenuItemType {
-    DRINK,//Напиток
+    DRINK, //Напиток
     DISH //Блюдо
 }

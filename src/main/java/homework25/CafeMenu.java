@@ -8,6 +8,7 @@ public class CafeMenu {
         MenuItem pasta = new MenuItem("Pasta", MenuItemType.DISH);
         MenuItem water = new MenuItem("Water", MenuItemType.DRINK);
 
+
         //выводим информацию о каждом элементе
         System.out.println(coffee);
         System.out.println(pizza);

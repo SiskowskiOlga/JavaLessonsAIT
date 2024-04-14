@@ -34,7 +34,7 @@ public class MenuItem {
 
     //создаем конструктор класс MenuItem
 
-    public MenuItem(String name, homework25.MenuItemType type) {
+    public MenuItem(String name,MenuItemType type) {
         this.name = name;
         this.type = type;
     }
