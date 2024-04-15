@@ -3,9 +3,9 @@ import java.util.HashSet;
 public class Main {
     // метод фильтрация объектов недвижимости по типу
     public static HashSet<Property> filterByType(HashSet<Property> properties, String type) {
-        HashSet<Property> filteredSet = new java.util.HashSet<>();
+        HashSet<Property> filteredSet = new HashSet<>();
         for (Property property : properties) {
-            if (property.type.equals(type)) {
+            if (property.type.equalsIgnoreCase(type)){
                 filteredSet.add(property);
             }
         }

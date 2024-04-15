@@ -1,7 +1,7 @@
 package lesson04;
 
-public class Task01 {
-    /*обьявляем три переменные типа float и
+public class AverageOfNumbers {
+    /*объявляем три переменные типа float,
     присваиваем им значение, вычисляем и
     выводим среднее значение этих трех чисел
      */

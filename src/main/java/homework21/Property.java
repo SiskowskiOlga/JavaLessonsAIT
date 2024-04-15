@@ -33,8 +33,9 @@ import java.util.HashSet;
 public class Property {
     //создала класс и объекты недвижимости
     private String address;
-    String type;
+     String type;
     public Property(String address, String type){
+        //создаем конструкторы
         this.address = address;
         this.type = type;
     }
@@ -45,6 +46,7 @@ public class Property {
 
     @Override
     public boolean equals(Object obj) {
+        //генерируем equals
         if (this == obj)return true;
         if (obj == null || getClass()!= obj.getClass())return false;
         Property property = (Property) obj;
@@ -52,7 +54,9 @@ public class Property {
 
     }
     public String toString(){
-        return "Property{" + "address='" + address + '\'' + ", type='" + type + '\'' + '}';
-
+        //  генерируем toString
+        return "Property{" + "address='" + address + '\'' +
+                ", type='" + type + '\'' +
+                '}';
     }
 }

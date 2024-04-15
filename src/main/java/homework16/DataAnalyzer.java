@@ -25,6 +25,7 @@ public class DataAnalyzer {
 
     }
     public static void main(String[] args) {
+        sum(10,30);
         //примеры использования функций
         System.out.println("Сумма чисел: " + sum(10, 65, 3, 49, 5));
         System.out.println("Сумма чисел: " + sum(11, 94, 30));

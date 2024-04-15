@@ -18,16 +18,14 @@ public class Operators {
         System.out.println(numberTree>numberFour);
 
 
-
-
         //оператор меньше ---->  <
-        System.out.println(numberTree<numberFour);
+        System.out.println(numberTree < numberFour);
 
         //оператор больше или равно--->  >=
-        System.out.println(numberOne>=numberTwo);
+        System.out.println(numberOne >= numberTwo);
 
         //оператор меньше или равно---> <=
-        System.out.println(numberOne<=numberTwo);
+        System.out.println(numberOne <= numberTwo);
 
         //сравнение строки ---> .equals
         String nameOne = "Mustermann";
@@ -37,72 +35,76 @@ public class Operators {
         boolean isEqualNameOneNameTwo = nameOne.equals(nameTwo);
         System.out.println(isEqualNameOneNameTwo);
 
-        // условный оператор ---> if / else
+
+
+        /*
+        и`=> &&
+        false && false ==> false
+        false && true ==> false
+        true && false ==> false
+        true && true ==> true
+
+          или = >||
+         false || false ==> false
+         false || true ==> true
+         true || false ==> true
+         true || true ==> true
+
+         */
         int age = 20;
         int salary = 10000;
         boolean hasPass = true;
+
         boolean hasCredit;
         //bank1
-        if (age>=21 && salary>2000 && hasPass==true){
-            System.out.println("Positiv");
+        if (age >= 21 && salary > 2000) {
+            System.out.println("Positive");
             hasCredit = true;
-        }
-        else {
+        } else {
             System.out.println("Negative");
             hasCredit = false;
         }
         System.out.println("Credit:" + hasCredit);
+
+
         //bank2
-        if(age>=21|| salary>3000)
-        {
+        if (age >= 21 || salary > 3000) {
             hasCredit = true;
-        }else {
+        } else {
             hasCredit = false;
         }
-        System.out.println("Credit2: "+hasCredit);
+        System.out.println("Credit 2: " + hasCredit);
 
-        /*
-         &&
-        false false ==> false
-        false true ==> false
-        true false ==> false
-        true true ==> true
 
-         ||
-         false false ==> false
-         false true ==> true
-         true false ==> true
-         true true ==> true
-
-         */
 
         int numberA = 40;
         int numberB = 20;
-        boolean checkResault = false;
-        if (numberA>10|| numberB>15){ //false||true -->true
-            checkResault = true;
+        boolean checkResult = false;
+        if (numberA > 10 || numberB > 15) { //false||true -->true
+            checkResult = true;
         }
-        if (numberA>10 && numberB>15) //false && true -->false
-            checkResault = false;
-        /* условия при всех true
-            мы присвоили переменной = false.*/
-        System.out.println("checkResault-->"+ checkResault);
+        if (numberA > 10 && numberB > 15) //false && true -->false
+            checkResult = false;
+        // условия при всех true мы присвоили переменной = false.
+        System.out.println("checkResault-->" + checkResult);
 
-        double accountBalance = 2000000.0;
+        double accountBalance = 20000000;
         boolean accountActive = false;
-        double amoundWithdraw = 6000.0;
-        boolean transactionSuccess = false;
-        //fals                                                 ||true
+        double amountWithdraw = 6000.0;
+        boolean transactionSuccess;
+        //false                                                 ||true
 
-        if (accountActive && accountBalance>=amoundWithdraw || accountBalance>=1000000) {
-            accountBalance = accountBalance - amoundWithdraw; //переписали значения баланса
+        if (accountActive && accountBalance >= amountWithdraw || accountBalance >= 1000000){
+            accountBalance = accountBalance - amountWithdraw; //переписали значения баланса
             transactionSuccess = true;
             System.out.println("Transaction: " + transactionSuccess + "Balance: " + accountBalance);
+        } else {
+            transactionSuccess = false;
+            System.out.println("ERROR!!!" + transactionSuccess);
+            System.out.println("Transaction: " + transactionSuccess + " Balance: " + accountBalance);
         }
-           else {
-               System.out.println("ERROR!!!" + transactionSuccess);
+        System.out.println(transactionSuccess);
 
         }
 
     }
-}
