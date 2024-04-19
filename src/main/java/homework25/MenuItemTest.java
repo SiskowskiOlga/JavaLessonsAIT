@@ -1,6 +1,6 @@
 package homework25;
 
-public class CafeMenu {
+public class MenuItemTest {
     public static void main(String[] args) {
         //создаем несколько элементов меню
         MenuItem coffee = new MenuItem("Coffee", MenuItemType.DRINK);
@@ -10,9 +10,11 @@ public class CafeMenu {
 
 
         //выводим информацию о каждом элементе
-        System.out.println(coffee);
-        System.out.println(pizza);
-        System.out.println(pasta);
-        System.out.println(water);
+        System.out.println(coffee.toString());
+        System.out.println(pizza.toString());
+        System.out.println(pasta.toString());
+        System.out.println(water.toString());
+
+
     }
 }

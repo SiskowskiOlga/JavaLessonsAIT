@@ -1,49 +1,17 @@
 package homework25;
 
 public class MenuItem {
-
-   /* Давайте создадим условия по теме использования перечислений (enum) в Java, которые помогут улучшить понимание этой концепции.
-
-    Задание: "Кафе меню"
-    Описание задачи
-    В виртуальном кафе есть меню, включающее различные напитки и блюда.
-    Ваша задача — создать перечисление MenuItemType, которое будет определять элементы меню (например, напиток или блюдо).
-    Затем создайте класс MenuItem, который использует это перечисление для изменения типа каждого элемента меню.
-
-            Шаги выполнения:
-    Определите перечисление MenuItemType :
-
-    DRINK для напитков.
-    DISH для блюд.
-    Создаем класс MenuItem :
-
-    Добавьте поле name типа String для названия элемента.
-    Добавьте поле type типа MenuItemType для указания элемента.
-    Создайте конструктор, принимающий оба значения.
-    Реализуйте методы getName()и getType()для доступа к полям.
-    Переопределите метод toString()получения информации об элементе.
-    Тестирование:
-
-    Приготовьте несколько предметов MenuItem, например, кофе (тип DRINK) и пиццу (тип DISH).
-    Вы вводите информацию о каждом объекте, используя System.out.println.
-
-
-     */
-    private  String name; //название элемента меню
-    private  MenuItemType type; //тип элемента меню
-
-    //создаем конструктор класс MenuItem
+    private String name;
+    private MenuItemType type;
 
     public MenuItem(String name,MenuItemType type) {
         this.name = name;
         this.type = type;
     }
-    //метод для получения названия элементов меню
 
     public String getName() {
         return name;
     }
-    //метод для получения типа элемента меню
 
     public MenuItemType getType() {
         return type;
@@ -51,7 +19,8 @@ public class MenuItem {
 
     @Override
     public String toString() {
-        return "name: " + name +
-                ", type: " + type;
+        return "MenuItem: name='" + name +
+                ", type=" + type;
     }
 }
+
