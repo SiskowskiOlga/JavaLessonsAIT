@@ -24,6 +24,7 @@ public enum OrderStatus {
 
     // Метод для проверки возможности отмены заказа
     public boolean canCancel() {
+
         return this == PENDING || this == PROCESSING;
     }
 }

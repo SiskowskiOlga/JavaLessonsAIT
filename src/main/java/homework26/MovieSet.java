@@ -1,6 +1,8 @@
 package homework26;
-
+import java.util.ArrayList;
 public class MovieSet {
+
+
     public static void simulateDayOfWork(FilmStudioEmployee[] employees) {
         for (FilmStudioEmployee employee : employees) {
             employee.work();
