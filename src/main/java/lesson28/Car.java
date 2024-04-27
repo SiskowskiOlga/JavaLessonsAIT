@@ -13,8 +13,4 @@ public class Car extends Vehicle {
         return numDoors;
     }
 
-
-
-
-
 }

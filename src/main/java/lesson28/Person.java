@@ -6,14 +6,16 @@ package lesson28;
  */
 
 public class Person {
-    protected String name;
+    private String name;
 
     public Person(String name) {
+
         this.name = name;
     }
 
 
     public void display() {
-        System.out.println("Name: " + name);
+
+        System.out.println("Имя " + name);
     }
 }

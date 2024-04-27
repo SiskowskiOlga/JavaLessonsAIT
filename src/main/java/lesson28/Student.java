@@ -14,7 +14,7 @@ package lesson28;
         @Override
         public void display() {
             super.display();
-            System.out.println("Student ID: " + studentId);
+            System.out.println(" Student ID: " + studentId);
         }
     }
 
