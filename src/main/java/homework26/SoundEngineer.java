@@ -5,23 +5,19 @@ SoundEngineer: Должен иметь метод recordSound(), который 
  */
 
 public class SoundEngineer extends FilmStudioEmployee{
-    public SoundEngineer(String name, int experienceYears) {
+    public SoundEngineer(String name, String position, int experienceYears) {
 
-        super(name,"Sound Engineer", experienceYears);
+        super(name,position, experienceYears);
     }
     public void recordSound(){
-        String name;
-        System.out.println(getName() + " is recording sound.");
+
+        System.out.println(getName() + " record sound.");
     }
     @Override
     public void work() {
 
-        System.out.println(getName() + " works on sound recording.");
+        System.out.println(getName() + " checks sound");
     }
 
-    @Override
-    public String getName() {
 
-        return super.getName();
-    }
 }

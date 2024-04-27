@@ -10,20 +10,25 @@ Director: Должен иметь метод director(), который выво
  */
 
 public class Director extends FilmStudioEmployee {
-    public Director(String name, int experienceYears) {
-        super(name,"Director", experienceYears);
+    public Director(String name,String position, int experienceYears) {
+        super(name,position, experienceYears);
     }
 
     public void director() {
 
-        System.out.println(getName() + " directs the film.");
+        System.out.println(getName() + " is a director.");
     }
+    @Override
+    public String toString() {
+        return "Director{} " + super.toString();
+    }
+
 
 
 
     @Override
     public void work() {
-
-        System.out.println(getName()+" directs the film crew.");
+        super.work();
+        System.out.println("Director makes Casting");
     }
 }
