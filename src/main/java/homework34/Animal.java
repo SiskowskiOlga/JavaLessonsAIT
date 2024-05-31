@@ -15,9 +15,10 @@ public class Animal {
         this.name = name;
         this.energy = 100;
         LOGGER.info("Новое животное {}", this.name);
+    }
+}
 
 
-public class Animal {
     /*
     Задание 2: Система мониторинга для зоопарка Java
 Цель: Разработать простую систему мониторинга для зоопарка с использованием логирования.
@@ -29,7 +30,7 @@ public class Animal {
 Метод checkAnimals() должен проходить по списку животных и для каждого животного логировать его имя и текущую энергию.
 Добавьте логирование ошибок, если какие-то данные о животном отсутствуют или некорректны.
      */
-    private String name;
+   /* private String name;
     private int energy;
 
     public Animal(String name, int energy) {
@@ -81,6 +82,6 @@ public class Animal {
     @Override
     public int hashCode() {
         return Objects.hashCode(getName());
-    }
+    }*/
 
-}
+
