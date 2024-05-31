@@ -34,19 +34,5 @@ public class Zoo {
             }
         }
     }
-
-    public static void main(String[] args) {
-        Zoo zoo = new Zoo();
-
-        // Добавим несколько животных в зоопарк
-        zoo.addAnimal(new Animal("Lion", 80));
-        zoo.addAnimal(new Animal("Elephant", 50));
-        zoo.addAnimal(new Animal("Monkey", 60));
-
-        // Добавим животное с некорректными данными
-        zoo.addAnimal(new Animal("", -10));
-
-        // Проверим состояние животных
-        zoo.checkAnimals();
-    }
 }
+
