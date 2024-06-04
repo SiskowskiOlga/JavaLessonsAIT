@@ -1,0 +1,54 @@
+<configuration scan="true" scanPeriod="30 seconds">
+
+    <!-- Энкодер для форматирования сообщений -->
+    <encoder name="encoder">
+        <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+
+    <!-- Консольный аппендер -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder ref="encoder"/>
+    </appender>
+
+    <!-- Аппендер для записи в файл с ротацией каждый день -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${user.home}/logs/myapp.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${user.home}/logs/archived/myapp-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder ref="encoder"/>
+    </appender>
+
+    <!-- Асинхронный аппендер, использующий файловый аппендер -->
+    <appender name="ASYNC" class="ch.qos.logback.classic.AsyncAppender">
+        <queueSize>500</queueSize>
+        <discardingThreshold>0</discardingThreshold>
+        <appender-ref ref="FILE"/>
+    </appender>
+
+    <!-- Фильтр для определения уровня логирования -->
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="ASYNC"/>
+    </root>
+
+    <!-- Специфичные логгеры для отладки -->
+    <logger name="com.mycompany.myapp" level="DEBUG" additivity="false">
+        <appender-ref ref="ASYNC"/>
+    </logger>
+
+    <!-- Специфичные логгеры для критических ошибок -->
+    <logger name="com.mycompany.myapp.critical" level="ERROR" additivity="false">
+        <appender-ref ref="FILE"/>
+    </logger>
+
+    <root level="debug">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="FILE" />
+    </root>
+
+</configuration>
