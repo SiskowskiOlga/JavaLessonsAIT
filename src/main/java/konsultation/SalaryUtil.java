@@ -2,6 +2,7 @@ package konsultation;
 
 public class SalaryUtil {
     public double getNettoSalary(double bruttoSalary){
+
         if (bruttoSalary < 2000){
             return bruttoSalary;//если меньше 2000, тогда зарплата не меняется
         }
