@@ -5,7 +5,7 @@ public class InsufficientFundsException extends Exception{
 
     // Конструктор
     public InsufficientFundsException(double shortage) {
-        super(message);
+        super("You don't have enough money to perform this operation: " + shortage);
         this.shortage = shortage;
     }
 
