@@ -26,6 +26,11 @@ public class UserInteraction {
         if (age <=0){
             LOGGER.error("Invalid age: {}", age);
         }
+        System.out.println("Enter your favorite color: ");
+        String color = scanner.nextLine();
+        LOGGER.debug("User added favorite color: {}", color);
+
+
         scanner.close();
 
     }
