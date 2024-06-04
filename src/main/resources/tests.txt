@@ -1,0 +1,24 @@
+Junit
+
+
+ FIRST
+ F --> fast тест должен выполняться быстро
+ I --> independent тест должен быть и выполняться независимо от других тестов
+ S --> selfvalidating самоуправление тест должен четко указывать на результаты выполения, пройден или нет
+ T --> timely своевременнось тест пишется непосредственно
+ до или сразу после написания метода, котрый будет тестирован
+
+ assertEquals(expected, actual) проверка, что 2 значения равны
+ assertNotEquals(expected, actual) проверка, что 2 значения не равны
+ assertTrue(condition) условие истинно
+ assertFalse(condition) условие ложное
+ assertNull(condition) обьект равен null
+ assertNotNull(condition) обьект не равен null
+ assertThrows(extexted, actual) проверка на выбрасываемое исключение в коде
+
+ @ParameterizedTest обозначение параметризированного теста
+ @ValueSource фиксированные наборы значений
+ @EnumSource предаем значения enum
+ @MethodSource передаем значения из статических методов
+ @CsvSource передаем значения из строк csv
+ @ArgumentSource передаем значение из пользовательского источника аргументов

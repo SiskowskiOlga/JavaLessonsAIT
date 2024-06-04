@@ -40,7 +40,7 @@ FilmStudioEmployee и заставляет каждого из них выпол
         this.experienceYears = experienceYears;
     }
     public void work(){
-        System.out.println(name + " works on their current task.");
+        System.out.println(name + " works on her current task.");
     }
 
     public String getName() {
@@ -64,11 +64,18 @@ FilmStudioEmployee и заставляет каждого из них выпол
     }
 
     public void setExperienceYears(int experienceYears) {
+
         this.experienceYears = experienceYears;
     }
-
-    public static void main(String[] args) {
-        FilmStudioEmployee employee = new FilmStudioEmployee("Olya","Director",6);
+    @Override
+    public String toString() {
+        return "FilmStudioEmployee{" +
+                "name='" + name + '\'' +
+                ", position='" + position + '\'' +
+                ", experienceYears=" + experienceYears +
+                '}';
     }
+
+
 }
 

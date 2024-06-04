@@ -1,0 +1,20 @@
+package lesson29;
+
+public class Smartphone implements Chargeale, Connectable, GPSable{
+    @Override
+    public void charge() {
+        System.out.println("Smartphone charge");
+    }
+
+    @Override
+    public void connect() {
+        System.out.println("Smartphone connect");
+    }
+
+
+    @Override
+    public String getLocation() {
+        return "Location ";
+    }
+
+}

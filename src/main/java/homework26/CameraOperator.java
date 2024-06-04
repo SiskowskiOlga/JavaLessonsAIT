@@ -5,15 +5,24 @@ CameraOperator: Должен иметь метод operateCamera(), выводя
  */
 
 public class CameraOperator extends FilmStudioEmployee{
-    public CameraOperator(String name, int experienceYears) {
-        super(name,"Camera Operator", experienceYears);
+    public CameraOperator(String name,String position, int experienceYears) {
+
+        super(name,position, experienceYears);
     }
     public void operateCamera(){
+
         System.out.println(getName() + " is operating the camera." );
     }
     @Override
+    public String toString() {
+        return "CameraOperator{} " + super.toString();
+    }
+
+
+    @Override
     public void work() {
-       System.out.println(getName()+ " operates the camera.");
+
+        System.out.println(getName()+ " is making light.");
     }
 
 }
