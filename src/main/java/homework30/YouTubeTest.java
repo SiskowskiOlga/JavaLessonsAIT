@@ -2,8 +2,8 @@ package homework30;
 
 public class YouTubeTest {
     public static void main(String[] args) {
-        User user = new User();
-        User userYouTube = new User();
+        User user = new User(1,"Olga");
+        User userYouTube = new User(2,"Helga");
         Video video = new Video("07.05.2024", 1,"Star wars",20);
         user.addVideo(video);
         video.addDislike();
