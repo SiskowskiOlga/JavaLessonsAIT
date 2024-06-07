@@ -19,11 +19,13 @@ public class BankAccount {
     }
 
     public double getBalance() {
+
         return balance;
     }
 
 
     public String getAccountNumber() {
+
         return accountNumber;
     }
 
