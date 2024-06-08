@@ -63,7 +63,7 @@ public class SalaryUtilTest {
         expectedSalary.put(2500.0, 2375.0);
         expectedSalary.put(4200.0, 3780.0);
         expectedSalary.put(7000.0, 5950.0);
-        assertEquals(expectedSalary.get(bruttoSalary), salaryUtil.ge
+        assertEquals(expectedSalary.get(bruttoSalary), salaryUtil.getNettoSalary(2000));
         }
         }
 
