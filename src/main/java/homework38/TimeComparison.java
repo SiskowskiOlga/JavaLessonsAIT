@@ -1,6 +1,9 @@
 package homework38;
 import java.time.LocalTime;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 public class TimeComparison {
+    private static final Logger LOGGER = LoggerFactory.getLogger(TimeComparison.class);
     /* Сравнение времени:
     Создайте два объекта LocalTime: один для времени "07:30" утра, а другой для "08:45" вечера.
     Используйте методы isBefore и isAfter, чтобы определить, какое время раньше или позже, и выведите результат на консоль.
@@ -24,5 +27,17 @@ public class TimeComparison {
         } else {
             System.out.println("Время " + eveningTime + " раньше, чем " + morningTime);
         }
+
+
+        System.out.println("-------Вариант с учителем------------");
+        LocalTime localTimeMorning = LocalTime.of(7, 30);
+        LocalTime localTimeEvening = LocalTime.of(20, 45);
+        if (localTimeMorning.isBefore(localTimeEvening)) {
+            LOGGER.info("Утро раньше вечера");
+        }
+        if (localTimeEvening.isAfter(localTimeMorning)) {
+            LOGGER.info("Вечер позже утра");
+        }
+
     }
 }

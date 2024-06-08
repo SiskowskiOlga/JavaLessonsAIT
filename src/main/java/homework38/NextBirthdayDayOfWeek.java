@@ -2,7 +2,10 @@ package homework38;
 import java.time.LocalDate;
 import java.time.Month;
 import java.time.DayOfWeek;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 public class NextBirthdayDayOfWeek {
+    private static final Logger LOGGER = LoggerFactory.getLogger(NextBirthdayDayOfWeek.class);
     /*
     Определение дня недели
 Задача: Напишите программу, которая определяет день недели для вашего следующего дня рождения.
@@ -29,5 +32,11 @@ public class NextBirthdayDayOfWeek {
 
         // Вывод результата на консоль
         System.out.println("Ваш следующий день рождения будет в: " + dayOfWeek);
+
+
+        System.out.println("-------Вариант с учителем------------");
+        LocalDate nextBirthday1 = LocalDate.of(2024, 10, 23);
+        DayOfWeek dayOfWeekNextBirthday = nextBirthday.getDayOfWeek();
+        LOGGER.info(dayOfWeekNextBirthday.toString());
     }
 }

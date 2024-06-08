@@ -2,8 +2,11 @@ package homework38;
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class TimeUntilNewYear {
+    private static final Logger LOGGER = LoggerFactory.getLogger( TimeUntilNewYear.class);
     /*
     Вычисление времени до нового года
 Задача: Напишите программу, которая вычисляет, сколько дней,
@@ -26,8 +29,16 @@ public class TimeUntilNewYear {
 
         // Вывод результата на консоль
         System.out.println("До следующего Нового Года осталось:");
-        System.out.println("Дней: " + days);
-        System.out.println("Часов: " + hours);
-        System.out.println("Минут: " + minutes);
+        System.out.println(days + " дней," + hours + " часов, "+ minutes + " минут.");
+
+
+
+        System.out.println("------Вариант с учителем------------");
+        LocalDateTime localDateTimeNow = LocalDateTime.now();
+        LocalDateTime localDateTimeNewYear = LocalDateTime.of(2025, 1, 1, 0, 0);
+        long daysUntilTheNewYear = localDateTimeNow.until(localDateTimeNewYear, ChronoUnit.DAYS);
+        LOGGER.info("Days left until the new year: " + daysUntilTheNewYear);
+
+
     }
 }

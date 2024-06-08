@@ -20,7 +20,7 @@ public class JavaTimeApiHomework {
         System.out.println("-------Task01------------");
         LocalDate localDateNow = LocalDate.now();
         LOGGER.info("Date now: " + localDateNow);
-        LocalDate localDateOfMyNextBitrhday = LocalDate.of(2024, 9, 27);
+        LocalDate localDateOfMyNextBitrhday = LocalDate.of(2024, 10, 23);
         LOGGER.info("Date of my next BirthDay: " + localDateOfMyNextBitrhday);
 
         /*

@@ -1,8 +1,12 @@
 package homework38;
 import java.time.LocalDate;
 import java.time.Month;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 
 public class Birthday {
+    private static final Logger LOGGER = LoggerFactory.getLogger(Birthday.class);
     /* Создание дат:
     Напишите программу, которая создает объект LocalDate для сегодняшней даты,
     а затем создает другой объект LocalDate для даты вашего следующего дня рождения.
@@ -27,6 +31,12 @@ public class Birthday {
         // Вывод обеих дат на консоль
         System.out.println("Сегодняшняя дата: " + today);
         System.out.println("Следующий день рождения: " + nextBirthday);
+
+        System.out.println("-------Вариант с учителем------------");
+        LocalDate localDateNow = LocalDate.now();
+        LOGGER.info("Date now: " + localDateNow);
+        LocalDate localDateOfMyNextBitrhday = LocalDate.of(2024, 10, 23);
+        LOGGER.info("Date of my next BirthDay: " + localDateOfMyNextBitrhday);
     }
     }
 
