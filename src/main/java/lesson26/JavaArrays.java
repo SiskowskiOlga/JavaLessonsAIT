@@ -1,4 +1,4 @@
-package lesson26.konsultation;
+package lesson26;
 
 public class JavaArrays {
     public static void main(String[] args) {

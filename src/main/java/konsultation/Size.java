@@ -1,4 +1,4 @@
-package lesson26;
+package konsultation;
 
 public enum Size {
     BIG, SMALL, MEDIUM

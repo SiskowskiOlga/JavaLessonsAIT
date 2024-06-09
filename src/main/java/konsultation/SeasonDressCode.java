@@ -1,4 +1,4 @@
-package lesson26;
+package konsultation;
 
 public class SeasonDressCode {
     /*
@@ -6,7 +6,7 @@ public class SeasonDressCode {
    `Season` и выводит сообщение о том, как одеваться в этот сезон, используя конструкцию `switch`.
    */
 
-        public static void dressCode(Season season) {
+        public static void dressCode(konsultation.Season season) {
             switch (season) {
                 case SPRING:
                     System.out.println("Весна: Носите куртку и легкую обувь.");
@@ -26,10 +26,10 @@ public class SeasonDressCode {
         }
 
         public static void main(String[] args) {
-            lesson26.SeasonDressCode.dressCode(Season.SPRING);
-            lesson26.SeasonDressCode.dressCode(Season.SUMMER);
-            lesson26.SeasonDressCode.dressCode(Season.AUTUMN);
-            lesson26.SeasonDressCode.dressCode(Season.WINTER);
+            konsultation.SeasonDressCode.dressCode(konsultation.Season.SPRING);
+            konsultation.SeasonDressCode.dressCode(konsultation.Season.SUMMER);
+            konsultation.SeasonDressCode.dressCode(konsultation.Season.AUTUMN);
+            konsultation.SeasonDressCode.dressCode(konsultation.Season.WINTER);
         }
     }
 

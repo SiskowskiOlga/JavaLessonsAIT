@@ -1,4 +1,4 @@
-package lesson26.konsultation;
+package lesson26;
 
 public enum TestBruttoNettoSalary {
     TEST_1000(1000, 1000),

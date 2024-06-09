@@ -1,12 +1,12 @@
-package lesson26;
+package konsultation;
 
 public class TestSeason {
     public static void main(String[] args) {
-        System.out.println(lesson26.Season.SPRING.getActivity());
-        whatToWear(Season.SPRING);
+        System.out.println(konsultation.Season.SPRING.getActivity());
+        whatToWear(konsultation.Season.SPRING);
 
     }
-    public static void whatToWear(Season season){
+    public static void whatToWear(konsultation.Season season){
         switch (season){
             case SUMMER:
                 System.out.println("Шорты и майка, вот ваш выбор");

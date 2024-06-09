@@ -1,16 +1,16 @@
-package lesson26;
+package konsultation;
 
-public class SamsungHeadset extends Headset {
+public class SamsungHeadset extends konsultation.Headset {
     private  boolean aiVersion;
 
     public SamsungHeadset(boolean waterresistant,
                           String color,
-                          ConnectionType connectionType,
+                          konsultation.ConnectionType connectionType,
                           String brand,
-                          Size size,
+                          konsultation.Size size,
                           int soundLevel,
                           boolean hasMicro,
-                          ChargingType chargingType,
+                          konsultation.ChargingType chargingType,
                           boolean aiVersion) {
         super(waterresistant, color, connectionType, brand, size,
                 soundLevel, hasMicro, chargingType);

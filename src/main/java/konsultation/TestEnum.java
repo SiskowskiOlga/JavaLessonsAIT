@@ -1,31 +1,31 @@
-package lesson26;
+package konsultation;
 import java.util.EnumSet;
 import  java.util.EnumMap;
-import java.net.http.HttpHeaders;
+
 public class TestEnum {
-    private static Day dayOfWeek = Day.MONDAY;
-    private static AccessLevel accessLevel = AccessLevel.WRITE;
-    private static EnumSet<Day>weekend = EnumSet.of(Day.SATURDAY, Day.TUESDAY);
-    private static EnumMap<Day,String>dayStringEnumMap=new EnumMap<>(Day.class);
+    private static konsultation.Day dayOfWeek = konsultation.Day.MONDAY;
+    private static konsultation.AccessLevel accessLevel = konsultation.AccessLevel.WRITE;
+    private static EnumSet<konsultation.Day>weekend = EnumSet.of(konsultation.Day.SATURDAY, konsultation.Day.TUESDAY);
+    private static EnumMap<konsultation.Day,String>dayStringEnumMap=new EnumMap<>(konsultation.Day.class);
 
     public static void main(String[] args) {
-        weekend.add(Day.FRIDAY);
-        weekend.add(Day.TUESDAY);
+        weekend.add(konsultation.Day.FRIDAY);
+        weekend.add(konsultation.Day.TUESDAY);
         System.out.println(weekend);
 
-        dayStringEnumMap.put(Day.FRIDAY,"Super!!!");
-        dayStringEnumMap.put(Day.MONDAY,"Kaka");
-        dayStringEnumMap.put(Day.SATURDAY, "Cool!");
+        dayStringEnumMap.put(konsultation.Day.FRIDAY,"Super!!!");
+        dayStringEnumMap.put(konsultation.Day.MONDAY,"Kaka");
+        dayStringEnumMap.put(konsultation.Day.SATURDAY, "Cool!");
 
-        System.out.println(lesson26.HttpStatus.NOT_FOUND.getMessage());
-
-
+        System.out.println(konsultation.HttpStatus.NOT_FOUND.getMessage());
 
 
 
-       if (dayOfWeek.equals(Day.MONDAY)){
+
+
+       if (dayOfWeek.equals(konsultation.Day.MONDAY)){
            System.out.println("Monday");
-           System.out.println(Operations.MULTIPLY.apply(100,50));
+           System.out.println(konsultation.Operations.MULTIPLY.apply(100,50));
        }
        if (accessLevel.isAdmin()){
            //Method to change file
@@ -43,7 +43,7 @@ public class TestEnum {
 
 
     }
-    public static void checkDayOfWeek(Day day){
+    public static void checkDayOfWeek(konsultation.Day day){
         switch (day){
             case MONDAY :
                 System.out.println(day.name()+ " " + day.getDescription());

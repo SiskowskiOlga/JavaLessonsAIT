@@ -1,14 +1,14 @@
-package lesson26;
+package konsultation;
 
-public class SamsungHeadsetExperimental extends  SamsungHeadset {
+public class SamsungHeadsetExperimental extends konsultation.SamsungHeadset {
     private int stepcount;
 
     public SamsungHeadsetExperimental(boolean waterresistant,
                                       String color,
-                                      ConnectionType connectionType,
-                                      String brand, Size size,
+                                      konsultation.ConnectionType connectionType,
+                                      String brand, konsultation.Size size,
                                       int soundLevel, boolean hasMicro,
-                                      ChargingType chargingType,
+                                      konsultation.ChargingType chargingType,
                                       boolean aiVersion, int stepcount) {
         super(waterresistant, color, connectionType, brand, size, soundLevel, hasMicro, chargingType, aiVersion);
         this.stepcount = stepcount;

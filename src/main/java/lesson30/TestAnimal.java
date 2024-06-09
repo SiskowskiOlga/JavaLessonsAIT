@@ -8,5 +8,6 @@ public class TestAnimal {
         Animal dog = new Dog();
         dog.makeSound();
         dog.sleep();
+        dog.eat();
     }
 }

@@ -1,4 +1,4 @@
-package lesson26;
+package konsultation;
 
    /*
    Создайте enum `Season`, который включает четыре времени года:

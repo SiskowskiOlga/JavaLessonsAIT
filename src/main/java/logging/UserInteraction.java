@@ -1,7 +1,11 @@
 package logging;
+
 import org.slf4j.Logger;
+
 import java.util.Scanner;
+
 import org.slf4j.LoggerFactory;
+
 public class UserInteraction {
     /*
     Упражнение 1: Логирование действий пользователя
@@ -13,17 +17,23 @@ public class UserInteraction {
      */
     private static Scanner scanner = new Scanner(System.in);
     private static final Logger LOGGER = LoggerFactory.getLogger(UserInteraction.class);
+
     public static void main(String[] args) {
+        //уведомляем что зашел новый пользователь
         LOGGER.info("New user: ");
 
         System.out.println("Enter your name: ");
         String name = scanner.nextLine();
+        //пользователь вводит данные и мы их вписываем в деббаг
         LOGGER.debug("User added name: {}", name);
 
+
         System.out.println("Enter your age: ");
+        //Integer.parseInt делает из стринга интежер и передаем напрямую сканнером
         int age = Integer.parseInt(scanner.nextLine());
-        LOGGER.debug("User added age: {}",age);
-        if (age <=0){
+        LOGGER.debug("User added age: {}", age);
+        //проверку по возврасту сделали
+        if (age <= 0) {
             LOGGER.error("Invalid age: {}", age);
         }
         System.out.println("Enter your favorite color: ");
@@ -35,3 +45,4 @@ public class UserInteraction {
 
     }
 }
+
