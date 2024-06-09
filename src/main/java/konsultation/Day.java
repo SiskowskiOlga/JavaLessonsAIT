@@ -1,4 +1,4 @@
-package lesson26;
+package konsultation;
 
 public enum Day {
     //константы пишем всегда большими буквами, это неизменяемые значения, не можем их менять

@@ -1,23 +1,23 @@
-package lesson26;
+package konsultation;
 
 public class Headset {
     private  boolean waterresistant;
 
     private String color;
 
-    private ConnectionType connectionType;
+    private konsultation.ConnectionType connectionType;
 
     private String brand;
 
-    private Size size;
+    private konsultation.Size size;
 
     private int soundLevel;
 
     private boolean hasMicro;
 
-    private ChargingType chargingType;
+    private konsultation.ChargingType chargingType;
 
-    public Headset(boolean waterresistant, String color, ConnectionType connectionType, String brand, Size size, int soundLevel, boolean hasMicro, ChargingType chargingType) {
+    public Headset(boolean waterresistant, String color, konsultation.ConnectionType connectionType, String brand, konsultation.Size size, int soundLevel, boolean hasMicro, konsultation.ChargingType chargingType) {
         this.waterresistant = waterresistant;
         this.color = color;
         this.connectionType = connectionType;
@@ -44,11 +44,11 @@ public class Headset {
         this.color = color;
     }
 
-    public ConnectionType getConnectionType() {
+    public konsultation.ConnectionType getConnectionType() {
         return connectionType;
     }
 
-    public void setConnectionType(ConnectionType connectionType) {
+    public void setConnectionType(konsultation.ConnectionType connectionType) {
         this.connectionType = connectionType;
     }
 
@@ -60,11 +60,11 @@ public class Headset {
         this.brand = brand;
     }
 
-    public Size getSize() {
+    public konsultation.Size getSize() {
         return size;
     }
 
-    public void setSize(Size size) {
+    public void setSize(konsultation.Size size) {
         this.size = size;
     }
 
@@ -84,11 +84,11 @@ public class Headset {
         this.hasMicro = hasMicro;
     }
 
-    public ChargingType getChargingType() {
+    public konsultation.ChargingType getChargingType() {
         return chargingType;
     }
 
-    public void setChargingType(ChargingType chargingType) {
+    public void setChargingType(konsultation.ChargingType chargingType) {
         this.chargingType = chargingType;
     }
 

@@ -1,4 +1,4 @@
-package lesson26.konsultation;
+package lesson26;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

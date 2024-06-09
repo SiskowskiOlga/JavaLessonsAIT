@@ -11,4 +11,9 @@ abstract class Animal {
         System.out.println("Спит");
     }
 
+
+    void eat() {
+        System.out.println("Ест");
+    }
 }
+

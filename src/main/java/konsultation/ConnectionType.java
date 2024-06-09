@@ -1,4 +1,4 @@
-package lesson26;
+package konsultation;
 
 public enum ConnectionType {
     WIRELESS, CABEL

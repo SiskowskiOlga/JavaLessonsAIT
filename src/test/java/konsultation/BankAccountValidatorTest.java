@@ -9,7 +9,7 @@ public class BankAccountValidatorTest {
     @ParameterizedTest
     @ValueSource (strings = {"1234567", "12345678901", "12345A6789"})
     public void isValid(String input) {
-        lesson26.konsultation.BankAccountValidator bankAccountValidator = new lesson26.konsultation.BankAccountValidator();
+        lesson26.BankAccountValidator bankAccountValidator = new lesson26.BankAccountValidator();
         assertFalse(bankAccountValidator.isBankAccountValid(input));
         assertTrue(bankAccountValidator.isBankAccountValid("1234567890"));
     }
